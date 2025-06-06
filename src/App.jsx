@@ -1,12 +1,11 @@
 import { useState } from 'react'
 import './App.css'
+import Clock from './clock'
 
 function App()
 {
     return (
-        <div className='bg-black min-h-screen text-white' >
-          <h1 >Hello World</h1>
-        </div>
+        <Clock/>
     )
 }
       
